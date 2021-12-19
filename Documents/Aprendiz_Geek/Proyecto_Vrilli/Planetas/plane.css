@@ -1,0 +1,134 @@
+
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.3;
+    color: rgb(18, 214, 228);
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(199, 144, 181, 0.199),
+        rgba(136, 136, 206, 0.466)
+      ),
+      url(https://t1.ev.ltmcdn.com/es/posts/0/5/3/que_es_el_viento_solar_y_como_afecta_a_la_tierra_1350_orig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+h1{
+    background: rgb(170, 133, 106);
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 25%;
+}
+
+#description {
+    text-align: center;
+}
+
+#Container1 {
+    width: 1300px;
+    height: 1300px;
+    padding: 50px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    
+}
+
+
+#Container2 {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 400px;
+    top: 160px;
+    
+    
+}
+
+#Container3 {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 720px;
+    top: 160px;
+}
+
+
+#Container4 {
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    left: 1000px;
+    top: 160px;
+}
+
+.Container5 {
+    width: 800px;
+    height: 300px;
+    position: fixed;
+    left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
